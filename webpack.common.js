@@ -95,4 +95,7 @@ module.exports = {
         extensions: ['.js', '.tsx', '.ts'] // 文件后缀
     },
     optimization: {},
+    catch: {
+        type: 'filesystem', // 使用文件缓存
+    }
 }
