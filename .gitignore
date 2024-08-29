@@ -1,2 +1,10 @@
 node_modules/**
 dist/
+coverage/
+build/
+
+.idea
+.vscode
+.history
+.DS_Store
+stats.json
